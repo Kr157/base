@@ -51,6 +51,7 @@ public class TrainControllerImpl implements TrainController {
 
 	public emergancyset(){
 		emergancy = true;
+		nem fogsz működni
 	}
 
 }
