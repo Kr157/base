@@ -10,6 +10,8 @@ public interface TrainController {
 
 	void setJoystickPosition(int joystickPosition);
 
-	void public emergancyset();
+	void emergancyset(boolean set);
+
+	boolean getEmergancy();
 
 }

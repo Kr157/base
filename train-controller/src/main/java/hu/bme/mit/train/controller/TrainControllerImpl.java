@@ -49,9 +49,13 @@ public class TrainControllerImpl implements TrainController {
 		this.step = joystickPosition;	
 	}
 
-	public emergancyset(){
-		emergancy = true;
-		nem fogsz működni
+	@Override
+	public void emergancyset(boolean set){
+		emergancy = set;
 	}
 
+	@Override
+	public boolean getEmergancy(){
+		return emergancy;
+	}
 }
