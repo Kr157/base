@@ -28,9 +28,29 @@
             <version>0.5.0-SNAPSHOT</version>
         </dependency>
         <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>31.1-jre</version>
+        </dependency>
+		<dependency>
+            <groupId>org.netbeans.external</groupId>
+            <artifactId>com-google-guava</artifactId>
+            <version>RELEASE113</version>
+        </dependency>
+        <dependency>
             <groupId>hu.bme.mit.train</groupId>
             <artifactId>hu.bme.mit.train.user</artifactId>
             <version>0.5.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>31.1-jre</version>
+        </dependency>
+        <dependency>
+            <groupId>org.netbeans.external</groupId>
+            <artifactId>com-google-guava</artifactId>
+            <version>RELEASE113</version>
         </dependency>
     </dependencies>
 </project>
